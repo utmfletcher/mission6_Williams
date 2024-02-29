@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Apply styles to label elements */
+label {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed for your layout */
+    text-align: left;
+    margin-bottom: 5px; /* Adjust spacing between labels and inputs */
+}
+
+/* Apply styles to input elements */
+input, select, textarea {
+    display: inline-block;
+    width: calc(100% - 160px); /* Adjust the width accounting for label width */
+    margin-bottom: 10px; /* Adjust spacing between input elements */
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me p {
+    display: inline-block; /* Set paragraphs to display as inline-block */
+    margin: 10px; /* Add some margin for spacing */
+}
+
+.about-me img {
+    height: 20vw; /* Set the height of the image */
+    display: inline-block ; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.about-me a {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.card a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card img {
+    height: 20vw; /* Set the height of the image */
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+}
